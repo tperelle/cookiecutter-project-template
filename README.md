@@ -10,7 +10,7 @@ Add this function in your environment:
 
 ```bash
 function project() {
-  cookiecutter --overwrite-if-exists https://github.com/tperelle/project-template.git
+    cookiecutter --no-input --overwrite-if-exists https://github.com/tperelle/project-template.git name=$1
 }
 ```
 
@@ -19,7 +19,6 @@ function project() {
 When you want to create a new project directory:
 
 ```bash
-$ project
-name [myproject]:
+$ project myproject
 Initialized empty Git repository in /private/tmp/cookiecutter/myproject/.git/
 ```
