@@ -20,6 +20,6 @@ When you want to create a new project directory:
 
 ```bash
 $ project
-name [myproject]: test
-Initialized empty Git repository in /private/tmp/cookiecutter/test/.git/
+name [myproject]:
+Initialized empty Git repository in /private/tmp/cookiecutter/myproject/.git/
 ```
