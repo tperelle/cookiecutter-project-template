@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- cookiecutter >= 1.7.0
+- cookiecutter >= 2.6.0
 
 ## Installation
 
