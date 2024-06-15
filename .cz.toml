@@ -1,3 +1,6 @@
+# Commitizen config file
+# https://commitizen-tools.github.io/commitizen/
+
 [tool.commitizen]
 name = "cz_conventional_commits"
 version = "0.1.0"
